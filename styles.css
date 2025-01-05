@@ -1,0 +1,81 @@
+.pinned-chats-section {
+    padding: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 8px;
+}
+
+.pinned-chats-section h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.pinned-chats-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 8px 0;
+}
+
+.pinned-chats-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+.pinned-chats-list li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.pinned-chats-list a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    max-width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 8px 0;
+    flex: 1;
+}
+
+.unpin-button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 12px;
+    opacity: 0.7;
+    padding: 4px 8px;
+}
+
+.unpin-button:hover {
+    opacity: 1;
+}
+
+.pin-chat-button {
+    background-color: #10a37f;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.pin-chat-button:hover {
+    background-color: #1a7f64;
+}
+
+.pin-chat-button svg {
+    width: 16px;
+    height: 16px;
+}
