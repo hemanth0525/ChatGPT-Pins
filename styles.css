@@ -24,10 +24,19 @@
     margin-bottom: 4px;
     padding: 4px 8px;
     border-radius: 6px;
+    background-color: var(--sidebar-surface-primary);
+    height: 36px;
+    transition-property: background-color, opacity;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .pinned-chats-list li:hover {
-    background-color: var(--gray-100);
+    background-color: var(--sidebar-surface-secondary);
+}
+
+.pinned-chats-list li:active {
+    opacity: 0.9;
 }
 
 .pinned-chats-list a {
